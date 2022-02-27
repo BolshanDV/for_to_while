@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+   std::cout << "Hello World!\n";
+
+   int i, j;
+   for(i=0, j=0; i<56; i++)
+      cout<<i;
+
+   int FOR;
+   for(FOR=0; FOR<56; FOR++);
+   cout<<i;
+
+   int iforex;
+   for(iforex=0; iforex<56; iforex++);
+   cout<<i;
+   for(int k=i; k>0; k-=1, i--){
+        cout<<i;
+        cout<<k;
+   }
+    while(--i);
+    cout<<j;
+}
